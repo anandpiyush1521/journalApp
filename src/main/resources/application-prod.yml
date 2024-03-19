@@ -1,0 +1,11 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://<username>:<passoword>@cluster0.sszhc54.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      database: journaldb
+      auto-index-creation: true
+
+server:
+  port: 8081
+  servlet:
+    context-path: /journal

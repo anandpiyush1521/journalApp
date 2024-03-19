@@ -1,0 +1,22 @@
+spring:
+  profiles:
+    active: dev
+
+#LOGGER
+#logging:
+#  level:
+#    net:
+#      engineeringdigest:
+#        journalApp: DEBUG
+
+#Log Off
+#logging:
+#  level:
+#    net:
+#      engineeringdigest:
+#        service:
+#          UserService: OFF
+
+#logging:
+#  level:
+#    Root: ERROR
