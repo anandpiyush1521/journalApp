@@ -26,8 +26,8 @@ This project is a backend application for a Journal App built using Spring Boot,
     ```
 
 3. **Configure MongoDB**:
-    - Make sure MongoDB is installed and running on your system.
-    - Update the MongoDB connection details in the `application.properties` file.
+   - Make sure MongoDB is installed and running on your system.
+   - Update the MongoDB connection details in the `application.properties` file.
 
 4. **Run the Application**:
     ```
@@ -43,6 +43,10 @@ Once the application is up and running, you can interact with it through RESTful
 - **Get a Single Journal Entry**: `GET localhost:8080/journal/id/{myId}`
 - **Update a Journal Entry By ID**: `PUT localhost:8080/journal/id/{myId}`
 - **Delete a Journal Entry By ID**: `DELETE localhost:8080/journal/id/{myId}`
+
+Additionally, two new functions have been added:
+- **Email Service**: Allows users to receive notifications or summaries via email.
+- **Sentiment Analysis**: Provides sentiment analysis on journal content to gauge emotions or themes.
 
 Make sure to include appropriate authentication headers if authentication is enabled.
 
