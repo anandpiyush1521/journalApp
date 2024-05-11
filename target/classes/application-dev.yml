@@ -1,0 +1,23 @@
+spring:
+  data:
+    mongodb:
+      uri: XXXXXXXX
+      database: journaldb
+      auto-index-creation: true
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: XXXXXXXXXXXXXXXX
+    password: XXXXXXXXXXXXXXXX
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+server:
+  port: 8080
+  servlet:
+    context-path: /journal

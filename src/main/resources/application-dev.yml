@@ -1,15 +1,15 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://<username>:<password>@cluster0.sszhc54.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: XXXXXXXX
       database: journaldb
       auto-index-creation: true
 
   mail:
     host: smtp.gmail.com
     port: 587
-    username: xxx@gmail.com
-    password: xxxx xxxx xxxx xxxx
+    username: XXXXXXXXXXXXXXXX
+    password: XXXXXXXXXXXXXXXX
     properties:
       mail:
         smtp:
